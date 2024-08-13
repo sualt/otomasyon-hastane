@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{5364C913-45EA-483A-89C9-102738D62AEF}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Hastane_Otomasyonu1</RootNamespace>
+    <AssemblyName>Hastane Otomasyonu1</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Ekle Güncelle Sil.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Ekle Güncelle Sil.Designer.cs">
+      <DependentUpon>Ekle Güncelle Sil.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Giriş Ekranı.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Giriş Ekranı.Designer.cs">
+      <DependentUpon>Giriş Ekranı.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Arayüz.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Arayüz.Designer.cs">
+      <DependentUpon>Arayüz.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Güncelleme Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Güncelleme Formu.Designer.cs">
+      <DependentUpon>Güncelleme Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hasta Ekle Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Hasta Ekle Formu.Designer.cs">
+      <DependentUpon>Hasta Ekle Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet1.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet2.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet2.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet3.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet3.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet4.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet4.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet5.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet5.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet6.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet6.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet7.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet7.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Hastane_OtomasyonuDataSet8.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Hastane_OtomasyonuDataSet8.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="Kan Veren Ekle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kan Veren Ekle.Designer.cs">
+      <DependentUpon>Kan Veren Ekle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kan Veren Güncelleme.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kan Veren Güncelleme.Designer.cs">
+      <DependentUpon>Kan Veren Güncelleme.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Kan Verenlerin Listesi.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Kan Verenlerin Listesi.Designer.cs">
+      <DependentUpon>Kan Verenlerin Listesi.cs</DependentUpon>
+    </Compile>
+    <Compile Include="RAndevu Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="RAndevu Formu.Designer.cs">
+      <DependentUpon>RAndevu Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Randevu Ekle Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Randevu Ekle Formu.Designer.cs">
+      <DependentUpon>Randevu Ekle Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Recete.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Recete.Designer.cs">
+      <DependentUpon>Recete.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReceteEkle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ReceteEkle.Designer.cs">
+      <DependentUpon>ReceteEkle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Receteİslem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Receteİslem.Designer.cs">
+      <DependentUpon>Receteİslem.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tahlil Ekleme Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tahlil Ekleme Formu.Designer.cs">
+      <DependentUpon>Tahlil Ekleme Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="İlac Ekle Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlac Ekle Formu.Designer.cs">
+      <DependentUpon>İlac Ekle Formu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İlaç Deposu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlaç Deposu.Designer.cs">
+      <DependentUpon>İlaç Deposu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="İlaç Güncelle Formu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="İlaç Güncelle Formu.Designer.cs">
+      <DependentUpon>İlaç Güncelle Formu.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="Ekle Güncelle Sil.resx">
+      <DependentUpon>Ekle Güncelle Sil.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Giriş Ekranı.resx">
+      <DependentUpon>Giriş Ekranı.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Arayüz.resx">
+      <DependentUpon>Arayüz.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Güncelleme Formu.resx">
+      <DependentUpon>Güncelleme Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Hasta Ekle Formu.resx">
+      <DependentUpon>Hasta Ekle Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kan Veren Ekle.resx">
+      <DependentUpon>Kan Veren Ekle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kan Veren Güncelleme.resx">
+      <DependentUpon>Kan Veren Güncelleme.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Kan Verenlerin Listesi.resx">
+      <DependentUpon>Kan Verenlerin Listesi.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="RAndevu Formu.resx">
+      <DependentUpon>RAndevu Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Randevu Ekle Formu.resx">
+      <DependentUpon>Randevu Ekle Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Recete.resx">
+      <DependentUpon>Recete.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReceteEkle.resx">
+      <DependentUpon>ReceteEkle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Receteİslem.resx">
+      <DependentUpon>Receteİslem.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tahlil Ekleme Formu.resx">
+      <DependentUpon>Tahlil Ekleme Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="İlac Ekle Formu.resx">
+      <DependentUpon>İlac Ekle Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İlaç Deposu.resx">
+      <DependentUpon>İlaç Deposu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="İlaç Güncelle Formu.resx">
+      <DependentUpon>İlaç Güncelle Formu.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Hastane_OtomasyonuDataSet.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet1.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet1.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet1.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet1.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet2.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet2.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet2.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet2.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet2.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet3.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet3.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet3.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet3.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet3.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet4.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet4.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet4.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet4.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet4.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet5.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet5.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet5.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet5.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet5.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet6.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet6.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet6.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet6.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet6.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet7.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet7.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet7.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet7.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet7.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet8.xsc">
+      <DependentUpon>Hastane_OtomasyonuDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet8.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>Hastane_OtomasyonuDataSet8.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Hastane_OtomasyonuDataSet8.xss">
+      <DependentUpon>Hastane_OtomasyonuDataSet8.xsd</DependentUpon>
+    </None>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9ecf225e486dfd6e82781bb45bc09b71.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\teknoloji-sağlık-17.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1193707945-1024x1024.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UeBuUpaE_400x400.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81218906-cyber-security-and-data-privacy-protection-concept-with-icon-of-a-shield-and-lock-over-binary-digits.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\81218906-cyber-security-and-data-privacy-protection-concept-with-icon-of-a-shield-and-lock-over-binary-digits1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\healthca.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1a344e5fd1e1cc6f84229feae77f6ce4.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-hospital-emoji-health-care-hospital-icon-5b4059507bfef9.3309725615309438245079.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\42004110-blue-laboratory-flasks-glassware-symbol.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\medisoft-hastane-otomasyonu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ailehekimipng.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\indir.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2%28245%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\d1573f2fb517c51df7cf0c9ac061e642.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\72.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hastaneye-gitmek-serbest-mi-14106277_3367_amp.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\609b7cba70380e0fe09448c9.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images3.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\52358869-life-and-health-insurance-icon.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images4.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\depositphotos_4923478-stock-photo-first-aid-artificial-.jpgbreath-isolated.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %282%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hiv-aids-og-banner.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

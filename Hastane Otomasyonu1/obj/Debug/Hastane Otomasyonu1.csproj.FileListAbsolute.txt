@@ -1,0 +1,26 @@
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\bin\Debug\Hastane Otomasyonu1.exe.config
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\bin\Debug\Hastane Otomasyonu1.exe
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\bin\Debug\Hastane Otomasyonu1.pdb
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane Otomasyonu1.csprojAssemblyReference.cache
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form1.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Properties.Resources.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane Otomasyonu1.csproj.GenerateResource.cache
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane Otomasyonu1.csproj.CoreCompileInputs.cache
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane Otomasyonu1.exe
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane Otomasyonu1.pdb
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form2.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form4.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form5.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form6.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Form7.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Arayüz.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.İlaç_Deposu.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Güncelleme_Formu.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.İlac_Ekle_Formu.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.İlaç_Güncelle_Formu.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Kan_Verenlerin_Listesi.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Kan_Veren_Ekle.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Kan_Veren_Güncelleme.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Recete.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.ReceteEkle.resources
+C:\Users\mustafa\source\repos\Hastane Otomasyonu1\Hastane Otomasyonu1\obj\Debug\Hastane_Otomasyonu1.Receteİslem.resources
